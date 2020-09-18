@@ -1,0 +1,51 @@
+body {
+    font-size: 120%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.4;
+    color: #000000;
+    background-color: #c0b09b;
+    margin: 30;
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: normal;
+    text-align: center;
+    padding: 2rem;
+    margin: 0;
+  }
+  nav {
+    background-color: #724c4c;
+  }
+  nav ul {
+    margin: 0;
+    display: flex;
+    list-style: none;
+  }
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 0.8rem;
+  }
+  nav a.aktuell {
+    font-weight: bold;
+  }
+img {
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+h1 {
+   text-align: center;
+}
+footer {
+    background-color: #724c4c;
+    color: #ffffff;
+    padding: 2rem;
+    margin-top: 1rem;
+  }
+@media screen and (max-width: 530px) {
+    main {
+      display: block;
+    }
